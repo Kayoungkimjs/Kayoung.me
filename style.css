@@ -88,12 +88,12 @@ li {
 }
 
 /* About Me */
-.about-me {
+#about-me {
   align-items: center;
   padding: 80px 0;
 }
 
-.about-me .section-category {
+#about-me .section-category {
   display: block;
   margin-bottom: 49px;
   color: #009b4d;
@@ -113,7 +113,7 @@ li {
 }
 
 /* Career Journey */
-.career-journey {
+#career-journey {
   background-color: rgba(244, 245, 247, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -122,7 +122,7 @@ li {
   text-align: center;
 }
 
-.career-journey .section-category {
+#career-journey .section-category {
   display: block;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -140,7 +140,7 @@ li {
 .section-desc {
   margin-bottom: 35px;
   font-size: 22px;
-  line-height: 1.4545454545
+  line-height: 1.4545454545;
   letter-spacing: -0.01em;
 }
 
