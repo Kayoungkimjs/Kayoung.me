@@ -95,7 +95,6 @@ li {
 
 #about-me .section-category {
   display: block;
-  margin-bottom: 49px;
   color: #009b4d;
 }
 
@@ -112,25 +111,24 @@ li {
   margin-bottom: 48px;
 }
 
-/* Career Journey */
+/* Career Journey-header*/
 #career-journey {
+  padding: 80px 0;
   background-color: rgba(244, 245, 247, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.career-journey-cover {
+.career-journey-header {
   text-align: center;
 }
 
 #career-journey .section-category {
   display: block;
-  margin-top: 35px;
-  margin-bottom: 35px;
   color: #9829c0;
 }
 
 .section-title {
-  margin-bottom: 35px;
+  margin: 30px 0;
   font-size: 50px;
   font-weight: 700;
   line-height: 1.12;
@@ -138,10 +136,18 @@ li {
 }
 
 .section-desc {
-  margin-bottom: 35px;
+  margin-bottom: 70px;
   font-size: 22px;
   line-height: 1.4545454545;
   letter-spacing: -0.01em;
+}
+
+/* Career Journey-card*/
+
+.career-card {
+  width: 290px;
+  height: 300px;
+  position: relative;
 }
 
 .career-journey-image {
@@ -150,9 +156,14 @@ li {
   margin-bottom: 96px;
   border-radius: 8px;
   text-align: center;
-  background-color: #fff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  transition: background-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
+}
+
+.career-journey-image:hover,
+.career-journey-image:active {
+  opacity: 50%;
 }
 
 .career-journey-title {
@@ -165,6 +176,55 @@ li {
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: #fff;
+}
+
+.career-journey-title:hover,
+.career-journey-title:active {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.show-more-button {
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  transform: translate(50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: black;
+  width: 45px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: transparent; 
+}
+
+.show-more-button:hover,
+.show-more-button:active {
+  background-color: black;
+  color: #fff;
+}
+
+.description {
+  display: none;
+}
+
+.description.show {
+  display: block;
+}
+
+.career-journey-desc {
+  padding: 30px 20px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.87;
+  text-align: center;
 }
 
 /* Footer */
