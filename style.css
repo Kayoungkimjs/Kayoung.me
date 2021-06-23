@@ -42,23 +42,23 @@ li {
   letter-spacing: -0.01em;
 }
 
-/* Main */
-.main {
+/* Header */
+.header {
   width: 100vh;
   height: 100%;
 }
 
-.main-image {
+.header-image {
   position: relative;
 }
 
-.main-content {
+.header-content {
   position: absolute;
   top: 300px;
   left: 300px;
 }
 
-.main-title {
+.header-title {
   margin-bottom: 207px;
   font-size: 60px;
   font-weight: 700;
@@ -66,7 +66,7 @@ li {
   letter-spacing: -0.05em;
 }
 
-.main-button {
+.header-button {
   margin-right: 16px;
   align-items: center;
   width: 160px;
@@ -81,19 +81,19 @@ li {
   transition: background-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
 }
 
-.main-button:hover,
-.main-button:active {
+.header-button:hover,
+.header-button:active {
   background-color: black;
   color: #fff;
 }
 
 /* About Me */
-#about-me {
+.about-me {
   align-items: center;
   padding: 80px 0;
 }
 
-#about-me .section-category {
+.about-me .section-category {
   display: block;
   color: #009b4d;
 }
@@ -112,7 +112,7 @@ li {
 }
 
 /* Career Journey-header*/
-#career-journey {
+.career-journey {
   padding: 80px 0;
   background-color: rgba(244, 245, 247, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -122,7 +122,7 @@ li {
   text-align: center;
 }
 
-#career-journey .section-category {
+.career-journey .section-category {
   display: block;
   color: #9829c0;
 }
@@ -144,7 +144,7 @@ li {
 
 /* Career Journey-card*/
 
-.career-card {
+.career-card-1, .career-card-2, .career-card-3 {
   width: 290px;
   height: 300px;
   position: relative;
@@ -211,11 +211,11 @@ li {
   color: #fff;
 }
 
-.description {
+.description-1, .description-2, .description-3 {
   display: none;
 }
 
-.description.show {
+.description-1.show, .description-2.show, .description-3.show {
   display: block;
 }
 
